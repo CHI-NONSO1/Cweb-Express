@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-size: 100%;
+}
+
+.customer__order--tracking{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: red;
+  z-index: 20;
+}
+.order--tracking-flex{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.track__input{
+  width: 210px;
+  height: 40px;
+}
+.order--tracking-btn{
+  width: 80px;
+  height: 40px; 
+}
