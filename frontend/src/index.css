@@ -1,0 +1,14 @@
+html{
+  font-size: 85%;
+  box-sizing: border-box;
+}
+body,
+#root{
+  height: 100vh;
+  margin: 0;
+}
+body,input,textarea,select{
+  font-size: 1.6rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+

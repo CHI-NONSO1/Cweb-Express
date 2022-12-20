@@ -1,0 +1,245 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-size: 100%;
+}
+
+
+.site_policy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  border-bottom: .1rem solid #fff;
+
+  width: 100%;
+  height:10% ;
+ position: absolute;
+ bottom: 0;
+  background-image: linear-gradient( 
+    to right bottom, 
+    rgba(76, 0, 130, 0.5),
+    rgba(100, 0, 0, 0.5));
+
+  padding: 1%;
+  box-shadow: 0 10px 10px #000;
+}
+@media screen and (max-width:820px) {
+  .site_policy{
+    width: 100%;
+    height:10% ;
+    padding: 6%;
+  }
+}
+
+
+
+
+.fb_connect{
+  width:2% ;
+  height: 2%;
+  transition: all 3s ease-out;
+  cursor: pointer;
+}
+.twitter_connect{
+  width:2% ;
+  height: 2%;
+  transition: all 3s ease-out;
+  cursor: pointer;
+}
+.whatsapp_connect{
+  width:2% ;
+  height: 2%;
+  transition: all 3s ease-out;
+  cursor: pointer;
+  
+}
+
+.social_icon{
+  fill: blue;
+  width: 2rem;
+  height: 2rem;
+}
+@media screen and (max-width:820px) {
+  .social_icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.social_icon:hover{
+  fill: #fff;
+  transform: scale(1.4);
+}
+@media screen and (max-width:820px) {
+  .social_icon:hover{
+    
+    transform: scale(1.1);
+  }
+}
+.connect_parent{
+  width: 95%;
+  height: 20%;
+  padding: 2%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect{
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: underline;
+ 
+}
+@media screen and (max-width:820px){
+  .connect_parent{
+    width: 95%;
+  height: 20%;
+  padding: 1%;
+  }
+}
+@media screen and (max-width:820px) {
+  .connect{
+    
+    font-size: 80%;
+    font-weight: 300;
+    
+   
+  }
+}
+
+.customer__order--tracking{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: red;
+  z-index: 20;
+}
+.order--tracking-flex{
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.track__input{
+  width: 210px;
+  height: 40px;
+}
+.order--tracking-btn{
+  width: 80px;
+  height: 40px; 
+}
+.closedisplay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+table{
+
+  width: 80%;
+  height: 10%;
+  background: #fff;
+margin: 0 auto;
+}
+.scroll__table{
+  width: 96%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 4%;
+  overflow-x: scroll;
+  background: red;
+}
+tr:hover td {
+  background-color: #dededede;
+  cursor: pointer;
+}
+
+th{
+  width: 40%;
+  height: 20%;
+  background: indigo;
+  color: #fff;
+  
+}
+
+
+td{
+  max-width: 120px;
+  height: 20%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 2%;
+  background: rebeccapurple;
+}
+td:hover{
+ width: 200px; 
+}
+.watcher__box--container{
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:820px){
+  .watcher__box--container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+}
+
+.tracker__box{
+  width: 50%;
+  height: 100%;
+
+  background: yellowgreen;
+}
+@media screen and (max-width:820px){
+  .tracker__box{
+    width: 100%;
+    height: 60%;
+
+
+  }
+  
+}
+
+
+.watcher__box{
+  width: 50%;
+  height: 100%;
+
+  background: indigo;
+}
+
+@media screen and (max-width:820px){
+  .watcher__box{
+    width: 100%;
+    height: 40%;
+   
+
+  }
+  
+}
